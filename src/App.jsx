@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import QuoteBox from './Components/QuoteBox'
-import './Quotes.json'
+import './quotes.json'
 
 function App() {
   const [count, setCount] = useState(0)
