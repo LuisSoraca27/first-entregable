@@ -1,0 +1,46 @@
+body {
+  font-family:'Courier New', Courier, monospace;
+}
+
+.quoteCard {
+  display: flex;
+  align-items: flex-start;
+}
+.card {
+  width: 400px;
+  box-shadow: 2px 2px 2px 2px grey;
+  margin: 14rem auto;
+  padding: 15px;
+  background: white;
+}
+
+ i {
+  font-size: 70px;
+  padding-right: 10px;
+ }
+
+ h4 {
+  margin-top: .5rem;
+ }
+
+ p {
+  text-align: end;
+  margin: 0px 0px 5px 0px;
+  font-weight: bold;
+ }
+
+ button{
+  height: 40px;
+  width: 40px;
+  margin-left: 350px;
+  border-radius: 50%;
+  border: 0;
+  box-shadow: 1px 1px 1px 1px gray;
+ }
+
+ button i {
+  font-size: 25px;
+  position: relative;
+  left: 6px;
+ }
+
